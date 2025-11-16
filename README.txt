@@ -6,3 +6,11 @@ for as many seconds as the user wants. It uses the formulas:
 horizontal_motion = v0 * math.cos(angle_rad) * time
 vertical_motion = v0 * math.sin(angle_rad) * time - 0.5 * g * time**2
 
+There is Also an orbit simulator. It includes 3 planets, jupiter, mars, and earth. These each have different distances from the sun, different speeds, and different theta values. Using the formulas:
+r * cos(theta) (x value)
+r * sin(theta) (y value)
+
+I was able to plot the position of the planets after a certain time period of revolving around the sun (input taken for position)
+
+
+
